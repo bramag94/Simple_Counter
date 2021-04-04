@@ -19,10 +19,10 @@ function SimpleCounter(props) {
 			<div className="calendar">
 				<i className="far fa-clock"></i>
 			</div>
-			<div>  {props.digitOne % 10}</div>
-			<div>  {props.digitTwo % 10}</div>
-			<div>  {props.digitThree % 10}</div>
-			<div>  {props.digitFour % 10}</div>
+			<div> {props.digitOne % 10}</div>
+			<div> {props.digitTwo % 10}</div>
+			<div> {props.digitThree % 10}</div>
+			<div> {props.digitFour % 10}</div>
 		</div>
 	);
 }
